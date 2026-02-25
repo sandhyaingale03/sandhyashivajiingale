@@ -85,13 +85,18 @@ section {
 
 .home {
     display: flex;
+    flex-direction: row;
     align-items: center;
     padding: 0 9%;
-    background: url('./images/InShot_20260225_105505004.png') no-repeat;
+    background: url('./images/home_img.png');
+    background-repeat: no-repeat;
+    min-height: 100vh;
     background-size: contain;
     background-position: right;
     background-position-y: 10em;
 }
+
+
 
 .home-content {
     max-width: 60rem;
@@ -267,7 +272,7 @@ section {
     width: 45%;
     height: 100%;
     background: transparent;
-    transition: 3s;
+    transition: 1s;
 }
 
 .home-imgHover:hover {
@@ -706,7 +711,7 @@ span {
     right: 0;
     width: 100%;
     height: 100%;
-    background: var(--bg-color);
+    /* background: var(--bg-color); */
     z-index: 98;
 }
 
